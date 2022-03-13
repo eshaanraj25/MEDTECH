@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+  box-sizing: border-box;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(../bg-01.png);
+  background-size: contain;
+}
+
+.body2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(../bg2-01.png);
+  background-size: contain;
+}
+
+.container {
+  background-color: #f5f5f5;
+  padding: 50px 10px;
+  border-radius: 25px;
+  display: flex;
+  width: auto !important;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  justify-content: space-around;
+}
+
+h1 {
+  color: #2b2684;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.wrapper p {
+  font-size: 0.75rem;
+  color: #2b2684;
+  margin-bottom: 40px;
+}
+.mneu,
+.input {
+  height: 40px;
+  width: 250px;
+  border-radius: 15px;
+  padding-left: 15px;
+  margin-bottom: 8px;
+  border: 1px solid #2b2684;
+  position: relative;
+}
+
+.login-btn {
+  margin: 20px 0;
+  height: 40px;
+  border-radius: 15px;
+  border: none;
+  background-color: #2b2684;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: 0.5s;
+  width: 15vw;
+}
+
+button:hover,
+.login-btn:hover {
+  transform: scale(1.1);
+}
